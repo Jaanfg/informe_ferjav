@@ -6,6 +6,8 @@ El incidente de GTD involucra a distintos actores con niveles de responsabilidad
 
 * **Responsabilidad Penal:** Son los autores materiales de los delitos en la Ley 21.459. Si son identificados, enfrentan penas de cárcel.
 
+* **Responsabilidad Civil:** Además de la persecución penal, están obligados a indemnizar económicamente los daños causados a la infraestructura de GTD y del Estado.
+
 * **Desafío Legal:** Dada la naturaleza transnacional de estos grupos, la persecución penal es extremadamente compleja y requiere cooperación internacional.
 
 ### 2. GTD (El Proveedor IaaS)
@@ -19,3 +21,5 @@ El incidente de GTD involucra a distintos actores con niveles de responsabilidad
 ### 3. Las Instituciones Clientes (El Estado/Privados)
 
 * **Responsabilidad Administrativa:** Las instituciones del Estado son las "Responsables del Tratamiento" ante la ley. Tienen el deber de garantizar continuidad de sus servicios y responder por fallas en sus propios planes de contingencia.
+
+**Responsabilidad Civil:** El Estado podría enfrentar demandas por "falta de servicio" de parte de los ciudadanos que sufrieron perjuicios económicos o de salud.

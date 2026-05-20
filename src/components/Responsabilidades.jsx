@@ -33,6 +33,12 @@ function Responsabilidades() {
             <p>&nbsp;</p>
 
             <p>
+              <strong className="text-slate-700">Responsabilidad Civil:</strong> Además de la persecución penal, están obligados a indemnizar económicamente los daños causados a la infraestructura de GTD y del Estado.
+            </p>
+
+            <p>&nbsp;</p>
+
+            <p>
               <strong className="text-slate-700">Desafío Legal:</strong> Dada la naturaleza transnacional de estos grupos, la persecución penal es extremadamente compleja y requiere cooperación internacional.
             </p>
           </div>
@@ -75,6 +81,13 @@ function Responsabilidades() {
             <p>
               <strong className="text-slate-700">Responsabilidad Administrativa:</strong> Las instituciones del Estado son las "Responsables del Tratamiento" ante la ley. Tienen el deber de garantizar continuidad de sus servicios y responder por fallas en sus propios planes de contingencia.
             </p>
+
+            <p>&nbsp;</p>
+
+            <p>
+              <strong className="text-slate-700">Responsabilidad Civil:</strong> El Estado podría enfrentar demandas por "falta de servicio" de parte de ciudadanos que sufrieron perjuicios económicos o de salud.
+            </p>
+
           </div>
         </div>
         

@@ -8,9 +8,11 @@ La caída de los servicios de GTD tuvo un impacto directo en el acceso y manejo 
 
 * **Datos Sensibles:** La imposibilidad de acceder a historiales médicos o emitir bonos en Fonasa expone datos que revelan el estado de salud físico o mental de la población. La ley prohíbe su tratamiento sin consentimiento y exige medidas de seguridad reforzadas.
 
+Como establece el Artículo 10 de la Ley 19.628: "No pueden ser objeto de tratamiento los datos sensibles, salvo cuando la ley lo autorice, exista consentimiento del titular o sean datos necesarios para la determinación u otorgamiento de beneficios de salud".
+
 ### 2. Afectación de los Derechos ARCO
 
-* **Acceso:** Durante más de una semana, los ciudadanos se vieron impedidos de ejercer su derecho básico de acceder a su propia información de salud o judicial.
+* **Acceso:** Durante más de una semana, los ciudadanos se vieron impedidos de ejercer su derecho básico de acceder a su propia información de salud o judicial. Esto vulnera el Artículo 12, que dicta textualmente: "Toda persona tiene derecho a exigir a quien sea responsable de un banco, que se dedique en forma pública o privada al tratamiento de datos personales, información sobre los datos relativos a su persona".
 
 * **Rectificación, Cancelación y Oposición:** El ejercicio de estos derechos fue imposible mientras duró la contingencia.
 

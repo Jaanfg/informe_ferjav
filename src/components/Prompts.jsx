@@ -147,11 +147,14 @@ function Prompts() {
             <p>
               Además, en el desarrollo de React y Tailwind, la IA sirvió principalmente como herramienta de diagnóstico de errores, demostrando que la comprensión del código sigue siendo responsabilidad del desarrollador para ejecutar soluciones y resolver conflictos de versiones.
             </p>
+            <p>
+              Para este proyecto decidí emplear exclusivamente un chatbot (Gemini) en lugar de un agente (GitHub Copilot). Esta decisión se basa en que mientras un agente se integra para autocompletar código automáticamente basándose en el contexto, un chatbot permite un diálogo interactivo que considero esencial para debatir el marco legal, entender los errores de Tailwind CSS y tomar decisiones sobre el diseño antes de implementarlas.
+            </p>
+          </div>
+        </div>
           </div>
         </div>
         
-      </div>
-    </div>
   )
 }
 

@@ -53,3 +53,5 @@
 ### Reflexión final
 
 El uso de Gemini fue fundamental en la etapa de investigación legal, permitiendo conectar los hechos del ataque a GTD con los artículos específicos de las leyes chilenas actualizadas. Además, en el desarrollo de React y Tailwind, la IA sirvió principalmente como herramienta de diagnóstico de errores, demostrando que la comprensión del código sigue siendo responsabilidad del desarrollador para ejecutar soluciones y resolver conflictos de versiones.
+
+Para este proyecto decidí emplear un chatbot (Gemini) en lugar de un agente (GitHub Copilot). Esta decisión se basa en que mientras un agente se integra para autocompletar código automáticamente basándose en el contexto del proyecto, un chatbot permite un diálogo interactivo que considero esencial para debatir el marco legal, entender los errores de Tailwind CSS y tomar decisiones sobre el diseño antes de implementarlas.

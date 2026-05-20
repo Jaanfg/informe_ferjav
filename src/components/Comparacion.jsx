@@ -7,7 +7,7 @@ function Comparacion() {
       <div className="flex items-center gap-3 mb-6">
         <Layers className="text-blue-600" size={28} />
         <h2 className="text-2xl font-bold text-slate-800">
-          4. Comparación de Marcos (ISO 27001 vs NIST CSF)
+          4. Comparación de Marcos Regulatorios
         </h2>
       </div>
 
@@ -17,36 +17,37 @@ function Comparacion() {
         <table className="w-full text-left border-collapse">
           <thead>
             <tr className="bg-slate-100 text-slate-800">
-              <th className="p-4 border-b-2 border-slate-200 font-bold">Característica</th>
-              <th className="p-4 border-b-2 border-slate-200 font-bold">ISO/IEC 27001</th>
-              <th className="p-4 border-b-2 border-slate-200 font-bold">NIST CSF</th>
+              <th className="p-4 border-b-2 border-slate-200 font-bold text-sm uppercase tracking-wider">Eje de Comparación</th>
+              <th className="p-4 border-b-2 border-slate-200 font-bold text-sm uppercase tracking-wider">Ley 21.459 (Chile)</th>
+              <th className="p-4 border-b-2 border-slate-200 font-bold text-sm uppercase tracking-wider">ISO/IEC 27001</th>
+              <th className="p-4 border-b-2 border-slate-200 font-bold text-sm uppercase tracking-wider">GDPR (UE)</th>
+              <th className="p-4 border-b-2 border-slate-200 font-bold text-sm uppercase tracking-wider text-blue-600">Aplicabilidad al Caso GTD</th>
             </tr>
           </thead>
           <tbody className="text-slate-700 divide-y divide-slate-200">
             
             <tr className="hover:bg-slate-50 transition-colors">
-              {/* Primera columna en slate-800 simulando los <h3> */}
-              <td className="p-4 font-bold text-slate-800">Enfoque Principal</td>
-              <td className="p-4">Sistema de Gestión de Seguridad de la Información.</td>
-              <td className="p-4">Fases prácticas: Identificar, Proteger, Detectar, Responder y Recuperar.</td>
+              <td className="p-4 font-bold text-slate-800">1. Enfoque Principal</td>
+              <td className="p-4 text-sm"><strong>Punitivo / Reactivo:</strong> Busca castigar a los responsables una vez que ya ocurrió.</td>
+              <td className="p-4 text-sm"><strong>Preventivo:</strong> Busca establecer controles para evitar incidentes o minimizar su impacto.</td>
+              <td className="p-4 text-sm"><strong>Protección de Derechos:</strong> Su foco es proteger la privacidad de los ciudadanos y sus datos personales.</td>
+              <td className="p-4 text-sm bg-blue-50/40 font-medium text-slate-900">Permite penalizar a los atacantes, evidencia la falla de controles de GTD y protege los datos expuestos de los usuarios.</td>
             </tr>
             
             <tr className="hover:bg-slate-50 transition-colors">
-              <td className="p-4 font-bold text-slate-800">Certificación</td>
-              <td className="p-4 text-green-600 font-medium">Sí, es certificable internacionalmente.</td>
-              <td className="p-4">No certificable, es un marco de adopción voluntaria.</td>
+              <td className="p-4 font-bold text-slate-800">2. Obligatoriedad legal</td>
+              <td className="p-4 text-sm"><strong>Obligatorio:</strong> Aplica a toda entidad en territorio chileno.</td>
+              <td className="p-4 text-sm"><strong>Voluntario:</strong> Estándar de la industria, exigido en licitaciones y contratos.</td>
+              <td className="p-4 text-sm"><strong>Obligatorio:</strong> Exigible por ley para quien procese datos de ciudadanos europeos.</td>
+              <td className="p-4 text-sm bg-blue-50/40 font-medium text-slate-900">GTD está bajo la ley chilena pero estándares internacionales como ISO y GDPR son exigidos por clientes corporativos estatales.</td>
             </tr>
             
             <tr className="hover:bg-slate-50 transition-colors">
-              <td className="p-4 font-bold text-slate-800">Nivel de Detalle</td>
-              <td className="p-4">Muy riguroso y normativo. Exige mucha documentación.</td>
-              <td className="p-4">Flexible. Funciona como un perfil de ciberseguridad adaptable.</td>
-            </tr>
-            
-            <tr className="hover:bg-slate-50 transition-colors">
-              <td className="p-4 font-bold text-slate-800">Uso Común</td>
-              <td className="p-4">Cumplimiento legal y exigencias de clientes/proveedores.</td>
-              <td className="p-4">Evaluar rápidamente la madurez de seguridad y comunicar riesgos.</td>
+              <td className="p-4 font-bold text-slate-800">3. Manejo de Incidentes</td>
+              <td className="p-4 text-sm">No establece protocolos para la gestión interna solo clasifica el delito a denunciar.</td>
+              <td className="p-4 text-sm">Exige tener un plan de Respuesta a Incidentes documentado y en mejora continua.</td>
+              <td className="p-4 text-sm">Obliga legalmente a notificar a las autoridades sobre brechas de datos en un plazo máximo de 72 horas.</td>
+              <td className="p-4 text-sm bg-blue-50/40 font-medium text-slate-900">GTD debió aplicar su plan al apagar la red lo que evidenció la falta de una ley de reporte rápido de brechas tipo GDPR en Chile.</td>
             </tr>
             
           </tbody>
