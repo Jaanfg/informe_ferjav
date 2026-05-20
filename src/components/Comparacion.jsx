@@ -2,7 +2,7 @@ import { Layers } from 'lucide-react'
 
 function Comparacion() {
   return (
-    <div className="bg-white rounded-lg shadow p-8 mt-6">
+    <div className="bg-white border-2 border-slate-300 rounded-xl shadow-lg p-8 mt-6">
       
       <div className="flex items-center gap-3 mb-6">
         <Layers className="text-blue-600" size={28} />
@@ -10,6 +10,8 @@ function Comparacion() {
           4. Comparación de Marcos (ISO 27001 vs NIST CSF)
         </h2>
       </div>
+
+      <p>&nbsp;</p>
       
       <div className="overflow-x-auto">
         <table className="w-full text-left border-collapse">
@@ -20,7 +22,7 @@ function Comparacion() {
               <th className="p-4 border-b-2 border-slate-200 font-bold">NIST CSF</th>
             </tr>
           </thead>
-          <tbody className="text-slate-600 divide-y divide-slate-200">
+          <tbody className="text-slate-700 divide-y divide-slate-200">
             
             <tr className="hover:bg-slate-50 transition-colors">
               {/* Primera columna en slate-800 simulando los <h3> */}

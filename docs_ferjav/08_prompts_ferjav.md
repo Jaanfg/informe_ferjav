@@ -32,7 +32,23 @@
 
 * **Sección/Componente:** Componente `Resumen.jsx`.
 
-* **Qué se aceptó y qué se corrigió:** Se aceptó la estructura del JSX devuelta por la IA. Se ajustaron manualmente los márgenes (`mt-4`) y colores específicos (`text-slate-800`) para que hicieran juego visual con el componente principal `App.jsx`.
+* **Qué se aceptó y qué se corrigió:** Se aceptó la estructura del JSX devuelta por la IA. Se ajustaron manualmente los márgenes (`mt-6`) y colores específicos (`text-slate-800`) para que hicieran juego visual con el componente principal `App.jsx`.
+
+### Interacción 5: Ajustes de espaciado y formato
+
+* **Prompt utilizado:** "Los textos en mis componentes jsx se ven muy amontonados. ¿Qué etiqueta o código puedo usar para separar cada bloque de texto y darle más espacio? Además, en Prompts.jsx los textos están pegados a los dos puntos después de la etiqueta `<strong>`. ¿Cómo lo arreglo?"
+
+* **Sección/Componente:** Todos los componentes jsx (`Prompts.jsx`, `Conclusiones.jsx`, `Datos.jsx`, `Responsabilidades.jsx`, `Comparacion.jsx`, `Delitos.jsx`, `Marco.jsx`).
+
+* **Qué se aceptó y qué se corrigió:** Se aceptó la solución entregada por la IA de aplicar la etiqueta de párrafo vacía con un espacio irrompible `<p>&nbsp;</p>` en múltiples secciones de los componentes para forzar un salto de línea y mejorar el diseño. Además, se aceptó el uso de la entidad HTML `&nbsp;` justo después de las etiquetas `</strong>` en el componente `Prompts.jsx` para separar el texto sin necesidad de saltar a la línea de abajo.
+
+### Interacción 6: Diseño de Interfaz y Contraste Visual
+
+* **Prompt utilizado:** "Quiero que el fondo de mi página (App.jsx) cambie a un color más oscuro pero sin que las tarjetas se oscurezcan. Quiero que las tarjetas sigan siendo blancas pero con bordes marcados y que sea compatible con Tailwind CSS v3."
+
+* **Sección/Componente:** Archivo principal `App.jsx` y el contenedor principal (`<div>`) de los 8 componentes de la aplicación.
+
+* **Qué se aceptó y qué se corrigió:** Se corrigió la sugerencia de la IA de usar un fondo oscuro y se optó por un gris claro(`bg-slate-200`) en `App.jsx` que se vea limpio. Para las tarjetas, se configuraron idénticamente los 8 componentes usando `bg-white border-2 border-slate-300 rounded-xl shadow-lg p-8 mt-6`, logrando un fondo blanco con bordes marcados y definidos.
 
 ### Reflexión final
 

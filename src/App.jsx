@@ -10,7 +10,7 @@ import Prompts from './components/Prompts'
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col">
+    <div className="min-h-screen bg-slate-200 flex flex-col antialiased">
       <header className="bg-slate-900 text-white py-10 px-6 shadow-md">
         <div className="max-w-4xl mx-auto flex items-center gap-4">
           <Shield size={40} className="text-red-400" />
@@ -25,17 +25,15 @@ function App() {
         </div>
       </header>
       <main className="flex-1 max-w-4xl mx-auto px-6 py-12">
-        <div className="bg-white rounded-lg shadow p-8">
+        <div className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-lg shadow-lg p-8 mb-8 text-white">
           <div className="flex items-center gap-3 mb-4">
-            <BookOpen className="text-slate-700" />
-            <h2 className="text-xl font-semibold text-slate-800">
-              Bienvenida
+            <BookOpen className="text-blue-400" size={28} />
+            <h2 className="text-2xl font-bold">
+              Análisis Legal: Ransomware a GTD
             </h2>
           </div>
-          <p className="text-slate-600 leading-relaxed">
-            Este sitio contiene el análisis legal del caso asignado.
-            Las secciones se irán incorporando como componentes
-            individuales en el menú superior.
+          <p className="text-slate-300 leading-relaxed text-lg">
+            Este sitio presenta un desglose legal y técnico del incidente de ciberseguridad ocurrido en octubre de 2023. Se explora el marco normativo, los delitos tipificados bajo la Ley 21.459 y el impacto en la privacidad de los datos de los ciudadanos.
           </p>
         </div>
         <Resumen />
@@ -49,7 +47,7 @@ function App() {
       </main>
       <footer className="bg-slate-100 text-slate-600 text-sm py-4 px-6">
         <div className="max-w-4xl mx-auto flex justify-between">
-          <span>Estudiante: Javier Fernández</span>
+          <span>Estudiante: Javier Fernández Garrido</span>
           <span>Docente: Rubén Schnettler L. - INACAP Valparaíso</span>
         </div>
       </footer>

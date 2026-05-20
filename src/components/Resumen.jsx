@@ -2,14 +2,14 @@ import { FileText } from 'lucide-react'
 
 function Resumen() {
   return (
-    <div className="bg-white rounded-lg shadow p-8 mt-6">
+    <div className="bg-white border-2 border-slate-300 rounded-xl shadow-lg p-8 mt-6">
       <div className="flex items-center gap-3 mb-4">
         <FileText className="text-blue-600" />
         <h2 className="text-2xl font-bold text-slate-800">
           1. Resumen del Caso GTD
         </h2>
       </div>
-      <div className="text-slate-600 space-y-4 leading-relaxed">
+      <div className="text-slate-700 space-y-4 leading-relaxed">
         <p className="mb-4">
           <strong>Fecha del incidente:</strong> 23 de octubre de 2023.<br/>
           <strong>Actores involucrados:</strong> GTD, grupo cibercriminal (presuntamente BlackBasta) y clientes de GTD (Poder Judicial, Fonasa, etc.).

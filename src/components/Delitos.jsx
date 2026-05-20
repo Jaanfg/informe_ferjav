@@ -2,7 +2,7 @@ import { ShieldAlert } from 'lucide-react'
 
 function Delitos() {
   return (
-    <div className="bg-white rounded-lg shadow p-8 mt-6">
+    <div className="bg-white border-2 border-slate-300 rounded-xl shadow-lg p-8 mt-6">
       
       <div className="flex items-center gap-3 mb-6">
         <ShieldAlert className="text-red-500" size={28} />
@@ -10,8 +10,10 @@ function Delitos() {
           3. Tipificación de Delitos (Ley 21.459)
         </h2>
       </div>
+
+      <p>&nbsp;</p>
       
-      <div className="text-slate-600 leading-relaxed">
+      <div className="text-slate-700 leading-relaxed">
         
         <div className="mb-8">
           <h3 className="text-lg font-bold text-slate-800 mb-1">Art. 4 (Acceso Ilícito)</h3>
